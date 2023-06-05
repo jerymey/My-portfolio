@@ -1,37 +1,39 @@
+<a name="readme-top"></a>
 
-<!-- TABLE OF CONTENTS -->
+
+<div align="center">
+  
+
+  <h3><b>Portfolio Mobile First</b></h3>
+
+</div>
+
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements))
 - [📝 License](#license)
 
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-# 📖 Portfolio: Mobile First version] <a name="about-project"></a>
-
-**[Portfolio: Mobile First version]** is my first main project and It contains the intial two sections one is header and second in headline section.
-
+**[Portfolio: finish mobile version]** is The Day 4 Project of Microverse Program which includes building a complete portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
-1. Linters
-2. HTML
-3. CSS
+
+- Linters
+- HTML
+- CSS
+- FIGMA
 
 ### Tech Stack <a name="tech-stack"></a>
 1. Linters
