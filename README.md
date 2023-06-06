@@ -1,18 +1,11 @@
-<a name="readme-top"></a>
-
-
-<div align="center">
-  
-
-  <h3><b>Portfolio Mobile First</b></h3>
-
-</div>
-
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -22,6 +15,7 @@
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 # 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
@@ -78,6 +72,7 @@ In order to run this project you need:
 
 Web browser <br/>
 Code editor
+
 ### Setup
 
 Clone this repository to your desired folder:
