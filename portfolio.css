@@ -1,22 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background: #e5e5e5;
-  font-family: "Poppins", sans-serif;
 }
 
 .first {
-  width: 375px;
-  background: #f7f7f9;
+  position: absolute;
+  width: 1440px;
+  height: 616px;
+  top: 1px;
+  background: #ffff;
 }
 
 header {
@@ -39,6 +37,17 @@ header {
   margin-top: 4px;
 }
 
+.rigth-link {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo a {
   text-decoration: none;
   font-weight: 700;
@@ -48,14 +57,10 @@ header {
 }
 
 nav {
-  padding: 8px;
-}
-
-.menu {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
-  cursor: pointer;
+  padding: 1.5rem 9.68rem;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 section {
@@ -66,30 +71,38 @@ section {
 }
 
 ul {
+  display: flex;
   list-style: none;
 }
 
 .headline {
-  background-image: url("images/bg-image.png");
-  border-bottom-left-radius: 60px;
+  background-image: url("images/desktop-version/bg/Header\ bg@2x.png");
+  border-bottom-left-radius: 8rem;
 }
 
 .title {
+  font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  color: #091e42;
 }
 
 .details {
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   color: #344563;
+  width: 920px;
+  height: 98px;
 }
 
 .contact-link {
-  text-decoration: none;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -117,21 +130,31 @@ ul {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  gap: 12px;
+  display: grid;
   border: 1px solid #dfe1e6;
-  border-radius: 16px;
+  border-radius: 24px;
+  height: 496px;
+  width: 1156px;
+  background: #ffff;
+}
+
+.works__card__img {
+  display: block;
+  width: 544px;
+  height: 448px;
+  left: 24px;
+  top: 24px;
+  border-radius: 8px;
 }
 
 .project-info,
 .project-header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
+  align-items: flex-end;
+  text-align: right;
   gap: 12px;
+  padding: 1rem;
 }
 
 .project-title {
@@ -142,10 +165,14 @@ ul {
 }
 
 .header-details {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  gap: 12px;
+  width: 496px;
+  height: 46px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .header-details .client {
@@ -278,7 +305,7 @@ ul {
 
 .contact-me {
   background-color: #6070ff;
-  background-image: url("images/bg-footer.svg");
+  background-image: url("images/desktop-version/bg/contact\ form\ background\ shapes.svg");
   background-repeat: no-repeat;
   background-position: 160px 40px;
   border-top-left-radius: 60px;
