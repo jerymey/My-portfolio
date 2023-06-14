@@ -18,7 +18,7 @@
 
 # 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-**[Portfolio: finish mobile version]** is The Day 4 Project of Microverse Program which includes building a complete portfolio.
+**[Portfolio: finish mobile version]** In this project, I set up my portfolio website. My goal here is to set up and customize my portfolio for desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
