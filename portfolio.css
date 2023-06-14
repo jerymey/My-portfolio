@@ -327,6 +327,7 @@ p {
 
 .about__title {
   width: 5ch;
+  display: inline;
 }
 
 .about__dsc {
