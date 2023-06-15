@@ -91,6 +91,9 @@ To run tests, run the following command:
 Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
 👤 **Jery Mey**
 
 - GitHub: [@githubhandle](https://github.com/jerymey)
