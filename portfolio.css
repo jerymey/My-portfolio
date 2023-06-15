@@ -298,7 +298,9 @@ p {
 }
 
 .works__card__topics {
-  
+  float:left;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .works__card__topics__text {
