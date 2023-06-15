@@ -168,7 +168,7 @@ p {
 .btn:active {
   background: #2230d2;
   color: #fff;
-  box-shadow: 20px 20px 5px #fc894d;
+  box-shadow: 2px 2px 5px #fc894d;
 }
 
 @-webkit-keyframes btn-hover {
