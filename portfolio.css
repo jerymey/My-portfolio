@@ -168,7 +168,7 @@ p {
 .btn:active {
   background: #2230d2;
   color: #fff;
-  box-shadow: 20px 20px 5px #fc894d;
+  box-shadow: 2px 2px 5px #fc894d;
 }
 
 @-webkit-keyframes btn-hover {
@@ -275,6 +275,7 @@ p {
 
 .works__card__img {
   width: 100%;
+  transition: 3;
 }
 
 .works__card__img img {
@@ -298,10 +299,15 @@ p {
 }
 
 .works__card__topics {
-  display: flex;
+  float: left;
+  gap: 10px;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 1rem 0 1.8rem;
+  margin-top: 20px;
+}
+
+#only {
+  display: block;
+  margin-top: 73px;
 }
 
 .works__card__topics__text {
@@ -316,6 +322,8 @@ p {
   border: 1px solid #6070ff;
   border-radius: 8px;
   cursor: pointer;
+  margin-right: 59px;
+  margin-top: 30px;
 }
 
 .about {
