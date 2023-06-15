@@ -165,7 +165,8 @@ p {
   animation-delay: 0s;
 }
 
-.btn:focus {
+.btn:focus,
+.btn:active {
   background: #2230d2;
   color: #fff;
 }
