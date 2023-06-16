@@ -186,6 +186,23 @@ p {
   }
 }
 
+#anm {
+  animation-duration: 750ms;
+  animation-name: sliding-vertically;
+}
+
+@keyframes sliding-vertically {
+  from {
+    margin: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin: 0%;
+    width: 100%;
+  }
+}
+
 .navbar {
   padding: 1rem 1.5rem;
   align-items: center;
