@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://jerymey.github.io/My-portfolio/
+[Live Preview Link](https://jerymey.github.io/My-portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -97,6 +97,7 @@ To run tests, run the following command:
 Coming soon.
 
 ### Deployment
+
 You can deploy this project using: https://jerymey.github.io/My-portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
