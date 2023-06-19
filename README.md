@@ -18,7 +18,7 @@
 
 # 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-**[Portfolio: finish mobile version]** is The Day 4 Project of Microverse Program which includes building a complete portfolio.
+**[Portfolio: finish mobile version]** In this project, I set up my portfolio website. My goal here is to set up and customize my portfolio for desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -91,6 +91,9 @@ To run tests, run the following command:
 Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
 👤 **Jery Mey**
 
 - GitHub: [@githubhandle](https://github.com/jerymey)
