@@ -11,6 +11,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -89,6 +90,9 @@ Install live server extension in VS code then open index.html file using live se
 To run tests, run the following command:
 
 Coming soon.
+
+### Deployment
+You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
