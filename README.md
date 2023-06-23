@@ -21,6 +21,8 @@
 
 **[Portfolio: finish mobile version]** In this project, I set up my portfolio website. My goal here is to set up and customize my portfolio for desktop version.
 
+Watch [This video](https://www.loom.com/share/ab30b48bd5b4423b9c6c8dc1a981c633?sid=d585e0c5-fd11-4798-9376-ac2fc2ea505c) to learn more about the project.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - Linters
