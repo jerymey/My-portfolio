@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+a .hidden {
+  text-decoration: none;
+}
+
 body,
 h1,
 h2,
