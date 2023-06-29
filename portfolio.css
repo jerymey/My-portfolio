@@ -16,7 +16,16 @@ p {
   padding: 0;
 }
 
-.first {
+.ham-icon {
+  background: none;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.hero {
   background: #f7f7f9;
 }
 
@@ -24,7 +33,7 @@ p {
   background: #fff;
 }
 
-.real-bg {
+.bg-n-300 {
   background: #f7f7f9;
 }
 
@@ -36,7 +45,7 @@ p {
   color: #000;
 }
 
-.ctr-200 {
+.clr-n-800 {
   color: #172b4d;
 }
 
@@ -124,7 +133,7 @@ p {
   line-height: 24px;
 }
 
-.h2-m {
+.lh-20 {
   line-height: 20px;
 }
 
@@ -152,8 +161,8 @@ p {
 
 .btn {
   -webkit-animation-duration: 0.8s;
-  animation-duration: 0s;
-  transition: transform 1s ease-in-out;
+  animation-duration: 0.8s;
+  transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
 }
 
 .btn:hover {
@@ -163,13 +172,11 @@ p {
   animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  transform: scale(1.2);
 }
 
-.btn:active {
+.btn:focus {
   background: #2230d2;
   color: #fff;
-  box-shadow: 2px 2px 5px #fc894d;
 }
 
 @-webkit-keyframes btn-hover {
@@ -186,46 +193,31 @@ p {
   }
 }
 
-#anm {
-  animation-duration: 750ms;
-  animation-name: sliding-vertically;
-}
-
-@keyframes sliding-vertically {
-  from {
-    margin: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin: 0%;
-    width: 100%;
-  }
-}
-
 .navbar {
   padding: 1rem 1.5rem;
   align-items: center;
   justify-content: space-between;
 }
 
-.haref {
+.navbar__link {
   color: #6070ff;
+  -webkit-animation-name: rotate-logo;
+  animation-name: rotate-logo;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .navbar__menu {
   display: none;
 }
 
-.navbar__hamb {
-  cursor: pointer;
-}
-
 .head::before {
   content: "";
   position: absolute;
   background-color: #fff;
-  background-image: url("images/desktop-version/bg/Header\ bg@2x.png");
+  background-image: url("https://raw.githubusercontent.com/ArthurGC/portfolio-microverse/add-set-up-mobile-version--portfolio/images/shapes.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,9 +259,6 @@ p {
 
 .head__icons {
   margin: 0.5rem 0;
-}
-
-.head__icons__ul {
   align-items: center;
   justify-content: space-between;
   width: 11rem;
@@ -293,22 +282,6 @@ p {
 
 .works__card__img {
   width: 100%;
-  transition: 3s;
-}
-
-.works__card__img img {
-  width: 100%;
-  transition: transform 1s ease-in-out;
-}
-
-img:hover {
-  -webkit-animation-name: btn-hover;
-  animation-name: btn-hover;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  transform: scale(1.2);
 }
 
 .works__card__subtitle {
@@ -328,15 +301,10 @@ img:hover {
 }
 
 .works__card__topics {
-  float: left;
-  gap: 10px;
+  display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-#only {
-  display: block;
-  margin-top: 73px;
+  gap: 8px;
+  margin: 1rem 0 1.8rem;
 }
 
 .works__card__topics__text {
@@ -351,8 +319,6 @@ img:hover {
   border: 1px solid #6070ff;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 59px;
-  margin-top: 30px;
 }
 
 .about {
@@ -365,7 +331,6 @@ img:hover {
 
 .about__title {
   width: 5ch;
-  display: inline;
 }
 
 .about__dsc {
@@ -376,17 +341,14 @@ img:hover {
   text-transform: uppercase;
 }
 
-.about__icons {
-  margin: 1.3rem 0 1rem;
-}
-
 .about__icons__ul {
+  margin: 1.3rem 0 1rem;
   align-items: center;
   justify-content: space-between;
   width: 11rem;
 }
 
-.about__btn .btn {
+.about .btn {
   width: 162px;
   height: 48px;
   padding: 12px;
@@ -441,11 +403,11 @@ img:hover {
   cursor: pointer;
 }
 
-.footer::before {
+.contact::before {
   content: "";
   position: absolute;
   background-color: #6070ff;
-  background-image: url("images/desktop-version/bg/contact\ form\ background\ shapes@2x.png");
+  background-image: url("https://raw.githubusercontent.com/ArthurGC/portfolio-microverse/c8dcf1476c30337e684a9325358fe7f2b7410486/images/contact-form-shapes-mobile.svg");
   background-size: contain;
   background-position: right;
   background-origin: content-box;
@@ -458,7 +420,7 @@ img:hover {
   z-index: -1;
 }
 
-.footer {
+.contact {
   position: relative;
   padding: 6.4375rem 1.5rem 1.5rem;
   z-index: 10;
@@ -467,18 +429,18 @@ img:hover {
   align-items: center;
 }
 
-.footer__title {
+.contact__title {
   color: #fff;
   text-align: center;
 }
 
-.footer__dsc {
+.contact__dsc {
   color: #ebebff;
   text-align: center;
   margin: 0.8rem 0 2.8rem;
 }
 
-.footer__container form li input {
+.contact__container form li input {
   width: 100%;
   border-radius: 8px;
   background: #fff;
@@ -488,7 +450,7 @@ img:hover {
   padding: 0 1rem;
 }
 
-.footer__container form li textarea {
+.contact__container form li textarea {
   width: 100%;
   border-radius: 8px;
   background: #fff;
@@ -498,7 +460,7 @@ img:hover {
   resize: none;
 }
 
-.footer__container form li .btn {
+.contact__container form li .btn {
   width: 162px;
   height: 48px;
   padding: 12px;
@@ -526,6 +488,7 @@ img:hover {
   }
 
   .head::before {
+    background-image: url(images/desktop-version/bg/Header\ bg@2x.png);
     padding: 6rem;
     border-bottom-left-radius: 8rem;
   }
@@ -600,32 +563,33 @@ img:hover {
     flex-basis: 25rem;
   }
 
-  .footer::before {
+  .contact::before {
+    background-image: url(images/desktop-version/bg/contact\ form\ background\ shapes.svg);
     padding: 1rem;
     border-top-left-radius: 8rem;
   }
 
-  .footer {
+  .contact {
     padding: 6rem 8.875rem;
     background: #fff;
   }
 
-  .footer__dsc {
+  .contact__dsc {
     max-width: 570px;
   }
 
-  .footer__container {
+  .contact__container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .footer__container form li input,
-  .footer__container form li textarea {
+  .contact__container form li input,
+  .contact__container form li textarea {
     max-width: 447px;
   }
 
-  .footer__container form li:last-child {
+  .contact__container form li:last-child {
     text-align: center;
   }
 }
@@ -680,12 +644,69 @@ img:hover {
     flex-basis: 38rem;
   }
 
-  .footer::before {
+  .contact::before {
     padding: 3.5rem;
   }
 
-  .footer {
+  .contact {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
   }
+}
+
+.navbar__menu__link {
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+.navbar__menu__link:hover {
+  color: #396df2;
+  font-size: 17px;
+}
+
+.head__icons__link img {
+  transition: transform 0.5s;
+}
+
+.about__icons__link img {
+  transition: transform 0.5s;
+}
+
+.head__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+.about__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+@-webkit-keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+@media(min-width: 992px) {
+  .navbar__menu {
+    position: absolute;
+    background: #396df2;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+ }
 }
