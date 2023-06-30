@@ -1,7 +1,15 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamIcon = document.getElementById("ham-icon");
+const menu = document.getElementById("menu");
+const closeIcon = document.getElementById("close-icon");
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+function openMenu() {
+    hamIcon.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
+}
+function closeMenu() {
+    hamIcon.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
+}
+
+hamIcon.addEventListener("click", openMenu);
+closeIcon.addEventListener("click", closeMenu);

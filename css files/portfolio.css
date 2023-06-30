@@ -308,7 +308,7 @@ body {
   cursor: pointer;
 }
 
-.about {
+#about {
   padding: 7.125rem 1.5rem;
   border-top-right-radius: 5rem;
   display: flex;
@@ -729,7 +729,7 @@ body {
     flex-direction: row-reverse;
   }
 
-  .about {
+  #about {
     padding: 6rem;
     flex-direction: row;
     column-gap: 37px;
@@ -851,7 +851,7 @@ body {
     padding: 8.8rem;
   }
 
-  .about {
+  #about {
     padding: 7.125rem;
   }
 

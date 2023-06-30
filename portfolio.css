@@ -7,58 +7,56 @@
   font-family: "Poppins", sans-serif;
 }
 
+.ham-icon {
+  background: none;
+  border: none;
+}
+
+.navbar__hamb {
+  display: block;
+  font-size: 5px;
+  align-items: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
-li{
-  list-style: none;
-}
-.hidden {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
 
-.hamburger {
-  display: none;
+.display  {
+  /* flex-direction: column; */
+  background: #396df2;
+  /* top: 0;
+  right: 0; */
+  width: 585px;
+  text-align: left;
+  height: 200px;
+  /* position: absolute; */
+  z-index: 2;
   cursor: pointer;
 }
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  color: #396df2;
+
+.nav-items {
+  padding: 20px;
 }
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    color: #000;
+
+.close-icon {
+  background: none;
+  border: none;
+  float: right;
+}
+@media (min-width: 768px) {
+   .nav-items {
+    margin: 100px 0;
   }
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    flex-direction: column;
-    background-color: #396df2;
-    top: 70px;
-    gap: 0;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-  .nav-items {
-    margin: 16px 0;
-  }
-  .nav-menu.active {
-    left: 0;
-  }
+ 
 }
 
 body,
@@ -409,7 +407,7 @@ img:hover {
   margin-top: 30px;
 }
 
-.about {
+#about {
   padding: 7.125rem 1.5rem;
   border-top-right-radius: 5rem;
   display: flex;
@@ -512,7 +510,7 @@ img:hover {
   z-index: -1;
 }
 
-.footer {
+#footer {
   position: relative;
   padding: 6.4375rem 1.5rem 1.5rem;
   z-index: 10;
@@ -626,7 +624,7 @@ img:hover {
     flex-direction: row-reverse;
   }
 
-  .about {
+  #about {
     padding: 6rem;
     flex-direction: row;
     -moz-column-gap: 37px;
@@ -659,7 +657,7 @@ img:hover {
     border-top-left-radius: 8rem;
   }
 
-  .footer {
+  #footer {
     padding: 6rem 8.875rem;
     background: #fff;
   }
@@ -722,7 +720,7 @@ img:hover {
     padding: 8.8rem;
   }
 
-  .about {
+  #about {
     padding: 7.125rem;
   }
 
@@ -734,11 +732,11 @@ img:hover {
     flex-basis: 38rem;
   }
 
-  .footer::before {
+  #footer::before {
     padding: 3.5rem;
   }
 
-  .footer {
+  #footer {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
   }
