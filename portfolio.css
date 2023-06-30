@@ -16,6 +16,7 @@
   display: block;
   font-size: 5px;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .hidden {
@@ -52,11 +53,11 @@ a {
   border: none;
   float: right;
 }
+
 @media (min-width: 768px) {
    .nav-items {
     margin: 100px 0;
   }
- 
 }
 
 body,
@@ -267,10 +268,6 @@ p {
 
 .navbar__menu {
   display: none;
-}
-
-.navbar__hamb {
-  cursor: pointer;
 }
 
 .head::before {
