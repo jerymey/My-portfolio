@@ -31,14 +31,16 @@ a {
   text-decoration: none;
 }
 
-.display  {
+.display {
   /* flex-direction: column; */
   background: #396df2;
+
   /* top: 0;
   right: 0; */
   width: 585px;
   text-align: left;
   height: 200px;
+
   /* position: absolute; */
   z-index: 2;
   cursor: pointer;
@@ -55,7 +57,7 @@ a {
 }
 
 @media (min-width: 768px) {
-   .nav-items {
+  .nav-items {
     margin: 100px 0;
   }
 }

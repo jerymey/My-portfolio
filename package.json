@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
-  "main": "index.js",
+  "description": "- [📖 About the Project](#about-project)\r   - [🛠 Built With](#built-with)\r     - [Tech Stack](#tech-stack)\r     - [Key Features](#key-features)\r   - [🚀 Live Demo](#live-demo)\r - [💻 Getting Started](#getting-started)\r   - [Prerequisites](#prerequisites)\r   - [Setup](#setup)\r   - [Install](#install)\r   - [Usage](#usage)\r   - [Run tests](#run-tests)\r   - [Deployment](#deployment)\r - [👥 Authors](#authors)\r - [⭐️ Show your support](#support)\r - [🙏 Acknowledgements](#acknowledgements)\r - [📝 License](#license)",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,19 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-standard-with-typescript": "^36.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "hint": "^2.0.0",
-    "stylelint": "^7.13.0",
-    "stylelint-config-standard": "^16.0.0",
+    "hint": "^7.1.10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^1.5.2",
-    "typescript": "^5.1.6"
+    "stylelint-scss": "^3.21.0"
   }
 }
