@@ -157,3 +157,15 @@ const undisplay = (index) =>{
 }
 
 //contact form
+const form = document.querySelector('.formClass');
+function errData(data) {
+  document.getElementById('data').innerHTML = data;
+}
+const email = document.getElementById('contact-email');
+form.addEventListener('input', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errData('Please input email in lower case');
+    e.preventDefault();
+    return false;
+  }
+});

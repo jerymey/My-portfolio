@@ -166,21 +166,22 @@
           feature that you need built or a project that needs coding. I’d love
           to help with it
         </p>
-        <form action="https://formspree.io/f/mknadjvd" method="post">
+        <form action="https://formspree.io/f/mknadjvd" method="post" id="form" class="formClass">
           <ul class="ul">
             <li>
-              <input type="text" class="footer__name fw-500 fz-17 h2-m" name="footer_name"
+              <input type="text" class="footer__name fw-500 fz-17 h2-m" name="footername"
                 placeholder="Enter your name" maxlength="30" required  />
             </li>
             <li>
               <input type="email" class="footer__email fw-500 fz-17 h2-m" placeholder="Enter your email"
-                name="footer_email" maxlength="30" required />
+                name="footeremail" maxlength="30" required id="contact-email"  />
             </li>
             <li>
-              <textarea class="fw-500 fz-17 h2-m" name="footer_message" placeholder="Write your message here"
+              <textarea class="fw-500 fz-17 h2-m" name="footermessage" placeholder="Write your message here"
                 cols="30" rows="8" maxlength="500" required></textarea>
             </li>
             <li>
+              <p id="data" style="color:red"></p>
               <input type="submit" value="Get It Touch" class="btn fw-500 fz-17 lh-24" />
             </li>
           </ul>
