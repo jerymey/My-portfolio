@@ -1,4 +1,4 @@
-const hamIcon = document.getElementById('ham-icon');
+const hamIcon = document.getElementById ('ham-icon');
 const menu = document.getElementById('menu');
 const closeIcon = document.getElementById('close-icon');
 
