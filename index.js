@@ -168,4 +168,5 @@ form.addEventListener('input', (e) => {
     e.preventDefault();
     return false;
   }
+  return true;
 });
