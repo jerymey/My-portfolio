@@ -155,3 +155,5 @@ const undisplay = (index) =>{
     obj.style.display = 'none';
 
 }
+
+//contact form
