@@ -20,8 +20,8 @@ closeIcon.addEventListener('click', closeMenu);
 //   menuLink.addEventListener('click', closeMenu);
 // });
 
-const popup = document.querySelector('#popup');
-const cardsContainer = document.querySelector('#work');
+const popup = document.querySelector('#pop');
+const cardsContainer = document.querySelector('#works');
 
 
 function ScreenPop() {
@@ -32,9 +32,9 @@ const projectList = [
   {
     id: 0,
     title: 'TONIC',
-    desc: 'Introducing EduQuest - an interactive educational platform showcased in an engaging project popup card. Immerse yourself in a world of knowledge as EduQuest offers engaging courses and collaborative learning experiences.',
-    tags: ['CANOPY', 'Back End Dev', '2023'],
-    imgUrl: 'img/Portfolio-1.png',
+    desc: '  ',
+    tags: ['CANOPY', 'Full Stack Dev', '2023'],
+    imgUrl: 'images/desktop-version/nature.png',
     tech: ['HTML', 'CSS', 'Javascript'],
     live: 'https://www.linkedin.com/in/md-arafat-hossain-111403275/',
     source: 'https://ghttps://github.com/HossainAraf',
@@ -76,7 +76,7 @@ let cardsGenerator = '';
 projectList.forEach((project) => {
   cardsGenerator += `
   <!-- card ${project.id} -->
-    <div class="work-first">
+    <div class="work-card">
       <div class="work-img">
         <img src="${project.imgUrl}" alt="${project.title}" />
       </div>
@@ -90,7 +90,7 @@ projectList.forEach((project) => {
          ${project.tech.map((tech) => `<li class="tech-li">${tech}</li>`).join(' ')} 
         </ul>
         <div class="card-btn-container">
-          <button class="see-project-btn" onclick="popupW(${project.id
+          <button class="see-project-btn" onclick="popOpen(${project.id
 })">See Project</button>
         </div>
       </div>
@@ -107,7 +107,7 @@ function ScreenPop(id) {
     <div class="popup-primary-text">
     <div class="popup-title-container">
       <h3 class="popup-title">${projectList[id].title}</h3>
-      <button class="popup-cancel" onclick="popupWC()">
+      <button class="popup-cancel" onclick="popClose()">
       <img src="img/Icon-cross.png" alt="icon cancel" class="popup-cancle-icon" />
   </button>
       </div>
@@ -142,6 +142,6 @@ function ScreenPop(id) {
 }
 const x = 0;
 if (x === 1) {
-  popupWC();
-  popupW();
+  popClose();
+  popOpen();
 }
