@@ -32,7 +32,6 @@ a {
 }
 
 .display {
-    /* display: none; */
     list-style-type: none;
     flex-direction: column;
     width: 100%;
@@ -68,7 +67,7 @@ a {
   }
 }
 
-@media (max-with: 400px) {
+@media (max-width: 400px) {
   .navbar__hamb {
     display: flex;
     font-size: 2px;
@@ -307,7 +306,6 @@ p {
 .head {
   flex-direction: column;
   align-items: flex-start;
-  /* position: relative; */
   padding: 6rem 1.5rem;
   z-index: 10;
 }
@@ -547,7 +545,7 @@ img:hover {
 .footer__container form li input {
   width: 100%;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   margin: 10px 0;
   height: 48px;
