@@ -690,7 +690,7 @@ img:hover {
   }
 }
 
-.popup-window{
+.popup-window {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -702,10 +702,9 @@ img:hover {
   left: 0;
   z-index: 99;
   display: none;
- 
 }
 
-.popup{
+.popup {
   width: 90%;
   margin: 5px auto;
   background-color: #fff;

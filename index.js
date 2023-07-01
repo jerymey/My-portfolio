@@ -1,7 +1,7 @@
-
-projects = [
-    {
-     id: 1,
+/* eslint-disable no-unused-vars */
+const projects = [
+  {
+    id: 1,
     title: 'Topic',
     name: 'CANOPY',
     back: 'Back End Dev',
@@ -20,7 +20,7 @@ projects = [
     LiveLink: 'https://arthurgc.github.io/crowdfunding-product-page/',
     years: '2015',
     Image: 'images/tonic.png',
-    descrip:'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    descrip: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ projects = [
     years: '2015',
     Image: 'images/yoga.png',
     descrip: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    
+
   },
   {
     id: 4,
@@ -46,8 +46,7 @@ projects = [
     descrip: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
   },
 ];
-document.getElementById('work').innerHTML = projects.map((item)=>{
-    return `  
+document.getElementById('work').innerHTML = projects.map((item) => `  
     <li class="works__card flex bg-white">
     <div class="works__card__img">
       <img src="${item.Image}" alt="professional art printing project" />
@@ -140,29 +139,26 @@ document.getElementById('work').innerHTML = projects.map((item)=>{
       </div>
     </div>
     </div>
-    `
-}).join('');
+    `).join('');
 
-const display = (index) =>{
-    const obj = document.getElementById(`element-${index}`);
+const display = (index) => {
+  const obj = document.getElementById(`element-${index}`);
   obj.style.display = 'block';
-    console.log('hi')
+  console.log('hi');
+};
 
-}
+const undisplay = (index) => {
+  const obj = document.getElementById(`element-${index}`);
+  obj.style.display = 'none';
+};
 
-const undisplay = (index) =>{
-    const obj = document.getElementById(`element-${index}`);
-    obj.style.display = 'none';
-
-}
-
-//contact form
-const form = document.querySelector('.formClass');
+// contact form
+const formula = document.querySelector('.formClass');
 function errData(data) {
   document.getElementById('data').innerHTML = data;
 }
 const email = document.getElementById('contact-email');
-form.addEventListener('input', (e) => {
+formula.addEventListener('input', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     errData('Please input email in lower case');
     e.preventDefault();
