@@ -168,4 +168,14 @@ form.addEventListener('input', (e) => {
     e.preventDefault();
     return false;
   }
+  // LOCAL STORAGE//
+ const footername = form.footername.value;
+ const footeremail = form.footeremail.value;
+ const footermessage = form.footermessage.value;
+ const JSONMessage = JSON.stringify({ footername, footeremail, footermessage });
+ localStorage.setItem('data', JSONMessage);
 });
+const userdata = JSON.parse(localStorage.getItem('data'));
+form.footername.value = userdata.footername;
+form.footeremail.value = userdata.footeremail;
+form.footermessage.value = userdata.footermessage;
